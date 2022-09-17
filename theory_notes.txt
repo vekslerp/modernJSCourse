@@ -1,0 +1,139 @@
+// Primitive Data Types //
+
+- Stored directly in the location the variable accesses
+- Stored on the stack
+
+  String
+  Number
+  Boolean
+  Null
+  Undefined
+  Symbols
+
+Reference Data Types / Objects
+
+- Accessed by reference
+- Objects that are stored on the heap
+- A pointer to a location in memory
+
+  Arrays
+  Object Literals
+  Functions
+  Dates
+  Anything else...
+
+// DOM - Document Object Model //
+
+- Tree nodes/elements created by the browser
+- JavaScript can be used to read/write/manipulate to the DOM
+- Object Oriented Representation
+
+NODE TYPES
+1 - Element
+2 - Attribute (deprecated)
+3 - Text Node
+8 - Comment
+9 - Document itself
+10 - Doctype
+
+
+// Asynchronus Programming //
+
+- Synchronous Code
+posts = loadSync();
+... wait til posts are fetched
+... do something with posts
+
+doNextThing(); - Has to wait until posts load.
+
+- Asynchronous Code
+loadPostsAsync(function () {
+... wait til posts are fetched.
+... do something with posts.
+});
+
+doNextThing(); - Doesn't have to wait until posts load.
+
+// Browser / Server APIs
+Most Async code you work with will be part of an API or library
+- XMLHttpRequest & Fetch.
+- jQuery Ajax, Axios, other HTTP libraries.
+- Node.js fs (filesystem) module.
+
+Handling Async Code:
+- Callbacks.
+- Promises.
+- Async / Await.
+
+// Ajax & XHR //
+
+What is Ajax?
+- Asynchronous JavaScript & XML.
+- Set of web technologies.
+- Send & Receive data asynchronously.
+- Does not interfere with the current page
+- JSON has replaced XML for the most part
+
+- make async requests in the background.
+- no page reload / refresh.
+- no page reload / refresh.
+- fetch data.
+- very interactive.
+
+XmlHttpRequest (XHR) Object
+- API in form of an object
+- Provided by the browsers JS environment.
+- Methods transfer data between client / server.
+- Can be used with other protocols than HTTP.
+- Can work with data other than XML (JSON, plain text).
+
+
+// REST APIs & HTTP Requests //
+- Application Programming Interface.
+- Contract provided by one piece of software to another.
+- Structured request and response.
+
+REST APIs:
+- Representational State Transfer.
+- Architecture style for designing networked applications.
+- Relies on a stateless, client-server protocol, almost always HTTP.
+- Treats server objects as resources than can be created or destroyed.
+- Can be used by virtually any programming language.
+- All APIs have their own rules and structure.
+
+HTTP Requests:
+- GET: Retrieve data from specified resource.
+- POST: Submit data to be processed to a specified resource.
+- PUT: Update a specified resource.
+- DELETE: Delete specified resource.
+
+- HEAD: Same as GET but does not return a body.
+- OPTIONS: Returns the supported HTTP methods.
+- PATCH: Update partial resources.
+
+Error Handling
+- Regular expressions are used to describe a pattern of characters.
+
+What is a Pattern?
+- A re-usable solution that can be applied to occuring probems in software design (JavaScript Applications)
+- Can also be thought of as programming templates.
+- Situations vary significantly.
+
+ Pattern examples:
+- Module
+- Revealing Module Pattern
+- Singleton
+- Factory
+- Observer
+- Mediator
+- State
+
+Things that I have learned during this course
+- Basics & Fundamentals
+- DOM Manipulation & UI Events
+- Object Oriented Programming - ES5 Prototypes + ES6 Classes
+- Async JS - AJAX, Fetch, Promises, Async/Await
+- Error Handling, Regular Expressions, LocalStorage
+- Programming Scope, Arrow Functions, Map, Set, Iterators
+- JavaScript Patterns
+- Real World Projects With No Frameworks & Libraries
